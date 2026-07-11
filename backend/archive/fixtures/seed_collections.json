@@ -1,0 +1,20 @@
+[
+  {"order": 1, "year": 1965, "title": "마른 수수깡의 평화", "title_hanja": "마른 수수깡의 平和", "publisher": "모음사", "description": "정진규 시인의 첫 시집. 1950년대 말~1960년대 초 습작기를 거쳐 간행된 초기 대표작들을 묶었다."},
+  {"order": 2, "year": 1971, "title": "유한의 빗장", "title_hanja": "有限의 빗장", "publisher": "예술세계사", "description": "정진규 시인의 두 번째 시집."},
+  {"order": 3, "year": 1977, "title": "들판의 비인 집이로다", "title_hanja": "", "publisher": "교학사", "description": "정진규 시인의 시집."},
+  {"order": 4, "year": 1979, "title": "매달려 있음의 세상", "title_hanja": "", "publisher": "문학예술사", "description": "정진규 시인의 시집."},
+  {"order": 5, "year": 1983, "title": "비어 있음의 충만을 위하여", "title_hanja": "", "publisher": "민족문화사", "description": "정진규 시인의 시집."},
+  {"order": 6, "year": 1984, "title": "연필로 쓰기", "title_hanja": "", "publisher": "영언문화사", "description": "정진규 시인의 시집."},
+  {"order": 7, "year": 1986, "title": "뼈에 대하여", "title_hanja": "", "publisher": "정음사", "description": "정진규 시인의 시집."},
+  {"order": 8, "year": 1990, "title": "별들의 바탕은 어둠이 마땅하다", "title_hanja": "", "publisher": "문학세계사", "description": "정진규 시인의 시집. 「서서 자는 말」, 「별」 등이 수록되었다."},
+  {"order": 9, "year": 1994, "title": "몸시", "title_hanja": "몸詩", "publisher": "세계사", "description": "'몸시(몸詩)' 연작으로 알려진 정진규 시인의 시집. 산문시 양식의 독자적 실험으로 주목받았다."},
+  {"order": 10, "year": 1997, "title": "알시", "title_hanja": "알詩", "publisher": "세계사", "description": "'알시(알詩)' 연작을 묶은 정진규 시인의 시집."},
+  {"order": 11, "year": 2000, "title": "도둑이 다녀가셨다", "title_hanja": "", "publisher": "세계사", "description": "정진규 시인의 시집."},
+  {"order": 12, "year": 2004, "title": "본색", "title_hanja": "本色", "publisher": "천년의시작", "description": "정진규 시인의 시집."},
+  {"order": 13, "year": 2007, "title": "껍질", "title_hanja": "", "publisher": "세계사", "description": "정진규 시인의 시집."},
+  {"order": 14, "year": 2009, "title": "공기는 내 사랑", "title_hanja": "", "publisher": "책만드는집", "description": "정진규 시인의 시집. 안성 생가 주변의 나무와 자연을 소재로 한 시편들이 실려 있다."},
+  {"order": 15, "year": 2011, "title": "율려집·사물들의 큰언니", "title_hanja": "律呂集·사물들의 큰언니", "publisher": "책만드는집", "description": "정진규 시인의 시집. '율려집' 연작을 포함한다."},
+  {"order": 16, "year": 2014, "title": "무작정", "title_hanja": "無作定", "publisher": "詩로여는세상", "description": "정진규 시인의 시집."},
+  {"order": 17, "year": 2015, "title": "우주 한 분이 하얗게 걸리셨어요", "title_hanja": "", "publisher": "중앙북스", "description": "정진규 시인의 시집."},
+  {"order": 18, "year": 2017, "title": "모르는 귀", "title_hanja": "", "publisher": "세상의 모든 시집", "description": "정진규 시인의 마지막 시집. 생전 마지막으로 간행된 시집이다."}
+]

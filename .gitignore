@@ -1,0 +1,62 @@
+# 1. 환경 변수 및 비밀 정보 (Secrets)
+####################################
+.env
+backend/.env
+*.local
+settings_local.py
+
+# 데이터베이스 파일
+db.sqlite3
+backend/db.sqlite3
+
+## 2. 로그 및 임시 파일
+#####################
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+backend/logs/
+
+## 3. 의존성 및 빌드 결과물 (Node.js/Vite)
+##########################
+node_modules/
+dist/
+dist-ssr/
+
+frontend/node_modules/
+frontend/dist/
+
+## 4. Python/Django
+###################
+# 가상 환경
+venv/
+.venv/
+backend/.venv/
+
+# 캐시 및 컴파일 파일
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.mo
+
+# 업로드 미디어 (시드 이미지는 예외적으로 추적)
+backend/media/*
+!backend/media/seed/
+!backend/media/seed/*
+
+# 정적 파일 수집 결과
+backend/staticfiles/
+
+## 5. IDE 및 OS 파일
+####################
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

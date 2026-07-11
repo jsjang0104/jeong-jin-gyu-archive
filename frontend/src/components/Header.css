@@ -1,0 +1,84 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+  position: relative;
+}
+.site-header__logo {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.site-header__logo-hanja {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+.site-header__logo-text {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+.site-header__nav {
+  display: flex;
+  gap: 32px;
+}
+.site-header__link {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+.site-header__link:hover,
+.site-header__link.is-active {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.site-header__toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  width: 24px;
+}
+.site-header__toggle span {
+  display: block;
+  height: 1px;
+  background: var(--ink);
+}
+
+@media (max-width: 800px) {
+  .site-header__toggle { display: flex; }
+  .site-header__nav {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+  .site-header__nav.is-open {
+    max-height: 320px;
+  }
+  .site-header__link {
+    padding: 16px var(--gutter);
+    border-bottom: 1px solid var(--line);
+  }
+}

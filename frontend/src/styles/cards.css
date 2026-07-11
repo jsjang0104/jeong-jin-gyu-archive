@@ -1,0 +1,12 @@
+.collection-card { display: block; }
+.collection-card__image { aspect-ratio: 3 / 4; overflow: hidden; }
+.collection-card__meta { padding-top: 14px; display: flex; flex-direction: column; gap: 4px; }
+.collection-card__meta h3 { font-family: var(--font-serif); font-weight: 300; font-size: 1.05rem; }
+
+.archive-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gutter); }
+@media (max-width: 900px) { .archive-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .archive-grid { grid-template-columns: 1fr; } }
+.archive-card { display: block; }
+.archive-card__image { aspect-ratio: 4 / 3; overflow: hidden; }
+.archive-card__meta { padding-top: 14px; display: flex; flex-direction: column; gap: 4px; }
+.archive-card__meta h3 { font-family: var(--font-serif); font-weight: 300; font-size: 1.05rem; }
