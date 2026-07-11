@@ -17,9 +17,17 @@ if not DEBUG:
         "localhost",
         "127.0.0.1",
         ".onrender.com",
+        ".hf.space",
     ]
 else:
     ALLOWED_HOSTS = ["*"]
+
+# Hugging Face Spaces(및 Render 등)는 TLS 종단을 리버스 프록시가 처리하므로,
+# Django 입장에서는 요청이 http로 들어와도 실제 Origin/Referer는 https다.
+# 이걸 신뢰하지 않으면 admin 로그인 등 POST 요청에서 CSRF 검증이 실패한다.
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.hf.space",
+]
 # ---------------------------------------------------
 
 INSTALLED_APPS = [

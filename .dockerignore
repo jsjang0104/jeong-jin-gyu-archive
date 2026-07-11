@@ -1,0 +1,24 @@
+# Docker 빌드 컨텍스트에서 제외 (backend 이미지에는 불필요)
+.git
+.gitignore
+README.md
+docs/
+render.yaml
+
+frontend/
+
+backend/.venv/
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/*
+!backend/media/seed/
+!backend/media/seed/**
+
+**/__pycache__/
+**/*.pyc
+
+node_modules/
+dist/
+.env
+backend/.env
+frontend/.env
